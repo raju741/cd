@@ -17,7 +17,7 @@ public class Requre_demo {
 
 		driver.get("https://www.demoblaze.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	}
 
 	@Test(priority = 1)
